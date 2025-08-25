@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUCEE-RIT - Empowering Engineering Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">IUCEE-RIT</div>
+            <div class="nav-links">
+                <a href="#story">Our Story</a>
+                <a href="#journey">Journey</a>
+                <a href="#about">About</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#events">Events</a>
+                <a href="#join">Join Us</a>
+            </div>
+            <button class="btn btn-primary">Get Involved</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in-up">
+                <h1 class="hero-title">Empowering Engineering Excellence</h1>
+                <p class="hero-subtitle">
+                    Join IUCEE-RIT, where innovation meets education. We're building the next generation of engineering
+                    leaders through cutting-edge programs, industry partnerships, and collaborative learning.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large">
+                        Explore Our Journey
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m9 18 6-6-6-6"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-outline btn-large">Discover Programs</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="story-content">
+                <div class="story-text">
+                    <h3>Where Innovation Meets Education</h3>
+                    <p>
+                        IUCEE-RIT was born from a vision to revolutionize engineering education. Founded by passionate students and faculty who believed that traditional learning methods needed a modern approach, we've grown into a thriving community of innovators, thinkers, and future leaders.
+                    </p>
+                    <p>
+                        Our story began with a simple question: How can we bridge the gap between academic knowledge and industry requirements? Today, we're proud to be the answer - a dynamic chapter that transforms how engineering students learn, grow, and succeed.
+                    </p>
+                </div>
+                <div class="story-visual">
+                    <div class="story-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">2020</span>
+                            <span class="stat-label">Founded</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Members</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Partners</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Events</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Journey Timeline -->
+    <section id="journey" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Our Journey</h2>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item timeline-item-left">
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <span class="timeline-badge">2020</span>
+                            <h3>IUCEE-RIT Chapter Founded</h3>
+                        </div>
+                        <p>Established to promote engineering education excellence and bridge academia-industry gap</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item timeline-item-right">
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <span class="timeline-badge">2021</span>
+                            <h3>First Technical Workshop Series</h3>
+                        </div>
+                        <p>Launched comprehensive hands-on engineering skill development programs with industry mentors</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item timeline-item-left">
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <span class="timeline-badge">2022</span>
+                            <h3>Industry Partnership Program</h3>
+                        </div>
+                        <p>Collaborated with 20+ leading tech companies for internships, projects, and career opportunities</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item timeline-item-right">
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <span class="timeline-badge">2023</span>
+                            <h3>National Recognition Achievement</h3>
+                        </div>
+                        <p>Received IUCEE's Outstanding Chapter Award for innovation in engineering education</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item timeline-item-left">
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <span class="timeline-badge">2024</span>
+                            <h3>500+ Active Members Milestone</h3>
+                        </div>
+                        <p>Reached milestone of 500 engineering students across all disciplines and academic levels</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievement Gallery -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Our Achievements</h2>
+            <div class="achievement-gallery">
+                <div class="achievement-card">
+                    <div class="achievement-image-container">
+                        <img id="achievement-image" src="/community-impact-award-ceremony.png" alt="Achievement" class="achievement-image">
+                        <button class="nav-btn nav-btn-left" onclick="prevAchievement()">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="m15 18-6-6 6-6"/>
+                            </svg>
+                        </button>
+                        <button class="nav-btn nav-btn-right" onclick="nextAchievement()">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="m9 18 6-6-6-6"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 id="achievement-title">Best Student Chapter Award 2024</h3>
+                        <p id="achievement-description">
+                            Recognized by IUCEE for outstanding contribution to engineering education and student development initiatives.
+                        </p>
+                    </div>
+                </div>
+                <div class="achievement-indicators" id="achievement-indicators"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us - Scrollable Team -->
+    <section id="about" class="team-section">
+        <div class="container">
+            <h2 class="section-title">Meet Our Team</h2>
+            <div class="team-container">
+                <div class="team-scroll" id="team-scroll">
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <img src="/professional-man-program-manager.png" alt="Dr. Rajesh Kumar">
+                        </div>
+                        <h3>Dr. Rajesh Kumar</h3>
+                        <p class="team-role">Faculty Advisor</p>
+                        <p class="team-bio">Professor of Computer Science with 15+ years in engineering education and research.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <img src="/professional-woman-executive-director.png" alt="Priya Sharma">
+                        </div>
+                        <h3>Priya Sharma</h3>
+                        <p class="team-role">Student President</p>
+                        <p class="team-bio">Final year Computer Science student passionate about technical innovation and leadership.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <img src="/professional-man-program-manager.png" alt="Arjun Patel">
+                        </div>
+                        <h3>Arjun Patel</h3>
+                        <p class="team-role">Technical Lead</p>
+                        <p class="team-bio">Electronics Engineering student specializing in IoT and embedded systems development.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <img src="/professional-woman-communications-lead.png" alt="Sneha Reddy">
+                        </div>
+                        <h3>Sneha Reddy</h3>
+                        <p class="team-role">Events Coordinator</p>
+                        <p class="team-bio">Mechanical Engineering student focused on organizing technical events and workshops.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <img src="/professional-man-program-manager.png" alt="Vikram Singh">
+                        </div>
+                        <h3>Vikram Singh</h3>
+                        <p class="team-role">Industry Relations</p>
+                        <p class="team-bio">Information Technology student building bridges between academia and industry.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-avatar">
+                            <img src="/professional-woman-communications-lead.png" alt="Ananya Gupta">
+                        </div>
+                        <h3>Ananya Gupta</h3>
+                        <p class="team-role">Research Coordinator</p>
+                        <p class="team-bio">Biomedical Engineering student leading research initiatives and publications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SDG Goals -->
+    <section class="sdg-section">
+        <div class="container">
+            <h2 class="section-title">Our Focus Areas</h2>
+            <div class="sdg-grid">
+                <div class="sdg-card">
+                    <div class="sdg-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                    </div>
+                    <h3>Quality Education</h3>
+                    <p>Advancing engineering education</p>
+                </div>
+                <div class="sdg-card">
+                    <div class="sdg-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"/>
+                            <polyline points="8,6 2,12 8,18"/>
+                        </svg>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>Fostering technological innovation</p>
+                </div>
+                <div class="sdg-card">
+                    <div class="sdg-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
+                        </svg>
+                    </div>
+                    <h3>Clean Energy</h3>
+                    <p>Sustainable technology solutions</p>
+                </div>
+                <div class="sdg-card">
+                    <div class="sdg-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>Industry Growth</h3>
+                    <p>Building industry partnerships</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is the Club About -->
+    <section class="club-about">
+        <div class="container">
+            <h2 class="section-title">What is IUCEE-RIT About?</h2>
+            <div class="tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" onclick="showTab('mission')">Mission</button>
+                    <button class="tab-button" onclick="showTab('activities')">Activities</button>
+                    <button class="tab-button" onclick="showTab('impact')">Impact</button>
+                </div>
+                <div class="tab-content">
+                    <div id="mission" class="tab-panel active">
+                        <div class="tab-card">
+                            <h3>Our Mission</h3>
+                            <p>
+                                IUCEE-RIT is dedicated to transforming engineering education through innovative teaching
+                                methodologies, industry collaboration, and student-centered learning. We bridge the gap between
+                                academic knowledge and industry requirements, preparing students for successful engineering careers.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="activities" class="tab-panel">
+                        <div class="tab-card">
+                            <h3>Our Activities</h3>
+                            <div class="activity-list">
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M9 12l2 2 4-4"/>
+                                            <path d="M21 12c.552 0 1-.448 1-1V5c0-.552-.448-1-1-1H3c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Technical Workshops</h4>
+                                        <p>Hands-on sessions on cutting-edge technologies and engineering practices</p>
+                                    </div>
+                                </div>
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                            <circle cx="9" cy="7" r="4"/>
+                                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Industry Partnerships</h4>
+                                        <p>Collaborations with leading companies for internships, projects, and placements</p>
+                                    </div>
+                                </div>
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Research Initiatives</h4>
+                                        <p>Student-led research projects and publications in engineering domains</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="impact" class="tab-panel">
+                        <div class="tab-card">
+                            <h3>Our Impact</h3>
+                            <div class="impact-stats">
+                                <div class="stat-item">
+                                    <div class="stat-header">
+                                        <span>Students Trained</span>
+                                        <span class="stat-value">2,000+</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-header">
+                                        <span>Industry Partners</span>
+                                        <span class="stat-value">50+</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-header">
+                                        <span>Technical Events</span>
+                                        <span class="stat-value">100+</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Statement -->
+    <section class="vision-section">
+        <div class="container">
+            <h2 class="section-title">Our Vision</h2>
+            <div class="vision-card">
+                <p class="vision-text">
+                    "To be the leading student chapter that transforms engineering education, fostering innovation, industry
+                    readiness, and lifelong learning among future engineers."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        <span>March 15, 2024</span>
+                    </div>
+                    <h3>Technical Symposium 2024</h3>
+                    <p>Annual technical conference featuring industry experts and student presentations</p>
+                    <button class="btn btn-outline btn-small">Learn More</button>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        <span>March 22, 2024</span>
+                    </div>
+                    <h3>Coding Bootcamp</h3>
+                    <p>Intensive programming workshop for skill development and placement preparation</p>
+                    <button class="btn btn-outline btn-small">Learn More</button>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        <span>April 5, 2024</span>
+                    </div>
+                    <h3>Industry Connect Summit</h3>
+                    <p>Networking event connecting students with leading technology companies</p>
+                    <button class="btn btn-outline btn-small">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Events Gallery - Immersive Layout -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Experience Our Events</h2>
+            <div class="gallery-immersive">
+                <div class="gallery-hero">
+                    <div class="gallery-main-container">
+                        <img id="gallery-main-image" src="/environmental-event-.png" alt="Technical Workshop" class="gallery-hero-image">
+                        <div class="gallery-hero-overlay">
+                            <div class="gallery-hero-content">
+                                <h3 id="gallery-main-title">Technical Workshop</h3>
+                                <p id="gallery-main-description">Hands-on learning session with industry experts</p>
+                                <button class="btn btn-outline-light btn-small">View Details</button>
+                            </div>
+                        </div>
+                        <button class="gallery-nav gallery-nav-left" onclick="prevGalleryImage()">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="m15 18-6-6 6-6"/>
+                            </svg>
+                        </button>
+                        <button class="gallery-nav gallery-nav-right" onclick="nextGalleryImage()">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="m9 18 6-6-6-6"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-grid" id="gallery-thumbnails">
+                    <!-- Thumbnails will be generated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Us -->
+    <section id="join" class="join-section">
+        <div class="container">
+            <div class="join-content">
+                <h2 class="join-title">Ready to Shape Your Engineering Future?</h2>
+                <p class="join-subtitle">
+                    Join IUCEE-RIT and be part of a community that's revolutionizing engineering education. Connect with
+                    industry leaders, develop cutting-edge skills, and build your professional network.
+                </p>
+                <div class="join-features">
+                    <div class="join-feature">
+                        <div class="join-feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                            </svg>
+                        </div>
+                        <h3>Learn & Grow</h3>
+                        <p>Access cutting-edge workshops and technical training</p>
+                    </div>
+                    <div class="join-feature">
+                        <div class="join-feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Network</h3>
+                        <p>Connect with industry professionals and peers</p>
+                    </div>
+                    <div class="join-feature">
+                        <div class="join-feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3>Excel</h3>
+                        <p>Gain recognition and leadership opportunities</p>
+                    </div>
+                </div>
+                <div class="join-buttons">
+                    <button class="btn btn-secondary btn-large">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                        Become a Member
+                    </button>
+                    <button class="btn btn-outline-light btn-large">Attend Events</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>IUCEE-RIT</h3>
+                    <p>
+                        Empowering engineering excellence through innovative education, industry partnerships, and student
+                        development.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#story">Our Story</a>
+                        <a href="#journey">Journey</a>
+                        <a href="#about">About Us</a>
+                        <a href="#achievements">Achievements</a>
+                        <a href="#events">Events</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Involved</h4>
+                    <div class="footer-links">
+                        <a href="#join">Join Us</a>
+                        <a href="#">Volunteer</a>
+                        <a href="#">Partner With Us</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p>iucee@rit.edu</p>
+                        <p>+1 (585) 475-2411</p>
+                        <p>Rochester Institute of Technology</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-separator"></div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 IUCEE-RIT Chapter. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enhanced Chatbot -->
+    <div class="chatbot">
+        <button class="chatbot-button" onclick="toggleChatbot()">
+            <svg class="chatbot-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+            <span class="chatbot-notification" id="chatbot-notification">1</span>
+        </button>
+        <div class="chatbot-panel" id="chatbot-panel">
+            <div class="chatbot-header">
+                <div class="chatbot-avatar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                </div>
+                <div class="chatbot-info">
+                    <h3>IUCEE-RIT Assistant</h3>
+                    <p class="chatbot-status">Online • Ready to help</p>
+                </div>
+                <button class="chatbot-close" onclick="toggleChatbot()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="chatbot-message chatbot-message-bot">
+                    <div class="chatbot-message-content">
+                        <p>Hello! I'm your IUCEE-RIT assistant. How can I help you today?</p>
+                    </div>
+                    <span class="chatbot-message-time">Just now</span>
+                </div>
+            </div>
+            <div class="chatbot-quick-actions">
+                <button class="chatbot-quick-btn" onclick="sendQuickMessage('How do I join IUCEE-RIT?')">
+                    Join IUCEE-RIT
+                </button>
+                <button class="chatbot-quick-btn" onclick="sendQuickMessage('Tell me about upcoming events')">
+                    Upcoming Events
+                </button>
+                <button class="chatbot-quick-btn" onclick="sendQuickMessage('What programs do you offer?')">
+                    Our Programs
+                </button>
+            </div>
+            <div class="chatbot-input-container">
+                <input type="text" class="chatbot-input" id="chatbot-input" placeholder="Type your message..." onkeypress="handleChatKeyPress(event)">
+                <button class="chatbot-send" onclick="sendMessage()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"/>
+                        <polygon points="22,2 15,22 11,13 2,9 22,2"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
